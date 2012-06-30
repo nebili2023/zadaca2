@@ -1,12 +1,12 @@
 Opis problema
-Firma “PXD sistem” se imedu ostalog bavi iznajmljivanjem termina na krevetima sa
+        Firma “PXD sistem” se imedu ostalog bavi iznajmljivanjem termina na krevetima sa
 bioterapeut plocama. Jedan termin na krevetu traje 20 minuta, i termini na plocama se
 zakazuju.
-Potrebno je napraviti PHP Web aplikaciju za poslovanje preduzeca koje iznajmljuje
+        Potrebno je napraviti PHP Web aplikaciju za poslovanje preduzeca koje iznajmljuje
 termine na krevetima, odnosno program za zakazivanje i pregled termina.
 
 Zadatak
-Aplikacija treba da bude napisana u PHP-u i da koristi MySQL bazu podataka.
+        Aplikacija treba da bude napisana u PHP-u i da koristi MySQL bazu podataka.
 Aplikacija treba da se sastoji od 4 glavne celine, kojima može da se pristupi preko
 glavnog menija na pocetnoj – glavnoj stranici.
 
@@ -17,26 +17,26 @@ glavnog menija na pocetnoj – glavnoj stranici.
         • Lista
 
 Odeljak Danas
-U ovom odeljku se nalazi raspored termina za tekuci dan, prikazan u tabeli koja izgleda
+        U ovom odeljku se nalazi raspored termina za tekuci dan, prikazan u tabeli koja izgleda
 na sledeci nacin:
 Vreme Ime i prezime Krevet Telefon Tretman
-11:00 – 11:20
-11:20 – 11:40
-11:40 – 12:00
-12:00 – 11:20
-12:20 – 12:40
-13:00 – 13:20
-13:20 – 13:40
-13:40 – 14:00
-PAUZA
-16:00 – 16:20
-16:20 – 16:40
-16:40 – 17:00
-17:00 – 17:20
-17:20 – 17:40
-17:40 – 18:00
+        11:00 – 11:20
+        11:20 – 11:40
+        11:40 – 12:00
+        12:00 – 11:20
+        12:20 – 12:40
+        13:00 – 13:20
+        13:20 – 13:40
+        13:40 – 14:00
+            PAUZA
+        16:00 – 16:20
+        16:20 – 16:40
+        16:40 – 17:00
+        17:00 – 17:20
+        17:20 – 17:40
+        17:40 – 18:00
 
-Kao što se vidi na tabeli, polje Vreme predstavlja termin u toku dana,
+        Kao što se vidi na tabeli, polje Vreme predstavlja termin u toku dana,
 Ime i prezime je text input box, i rucno ce se unositi. Ovde treba voditi racuna da se,
 ukoliko je korisnik vec registrovan, odnosno ukoliko je vec bio na tretmanu ne kreira
 novi zapis u tabeli o korisnicima, vec bi bilo pogodno napraviti Ajax funkciju, koja
@@ -51,18 +51,18 @@ Tretman se takode popunjava automatski ukoliko je korisnik vec bio na tretmanima
 odnosno nemoguce je vršiti rucnu izmenu.
 
 Odeljak Mesec
-Odeljak Mesec treba da bude graficki prikazan kalendar, sa klikabilnim danima. Kada
+        Odeljak Mesec treba da bude graficki prikazan kalendar, sa klikabilnim danima. Kada
 administrator – korisnik aplikacije klikne na odredeni dan, treba da mu se otvori odeljak
 Dan, za taj datum.
 
 Odeljak Dan
-U ovom odeljku se vrši zakazivanje termina za izabrani dan. Ukoliko je izabrani dan
+        U ovom odeljku se vrši zakazivanje termina za izabrani dan. Ukoliko je izabrani dan
 prošao, moguce je videti samo pregled rasporeda za taj dan, bez mogucnosti izmene.
 Podaci se u ovom odeljku prikazuju u identicnoj tabeli, kao za odeljak Danas, s razlikom
 da nije moguce vršiti izmene, ukoliko je izabrani dan pre današnjeg. Zakazivanje se vrši
 na isti nacin kao u odeljku danas, i tabela i polja su, znaci, ista kao u odeljku Danas.
 Odeljak Lista
-U ovom odeljku treba da se prikaže samo izvod, odnosno hronološka lista, ko je kada
+        U ovom odeljku treba da se prikaže samo izvod, odnosno hronološka lista, ko je kada
 iznajmio termin.
 **
 Registrovati besplatan hosting na www.freehostia.com
